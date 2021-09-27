@@ -1,0 +1,77 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.container {
+    width: 500px ;
+    height: 700px ;
+    display: block;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(14, 22, 70);
+    border-radius: 15px;
+    margin: 40px auto;
+    padding: 0 8px;
+}
+h1 {
+    width: 150px;
+    color: rgba(153, 170, 226, 0.363);
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.input-place {
+    width: 100%;
+    height: 15%;
+    display: block;
+    overflow: hidden;
+    color: rgb(14, 22, 70);
+    padding: 20px;
+}
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: rgb(14, 22, 70);
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.error {
+    height: 50px;
+    width: 444px;
+    color:rgba(255, 255, 240, 0.829);
+    border: 1px rgba(245, 246, 248, 0.151) solid; 
+    margin: 10px 20px;
+    padding-left: 10px ;
+}
+div {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5px auto;
+}
+button {
+    width: 23%;
+    height: 100%;
+    font-size: 35px;
+    font-weight: 600;
+    background-color: rgb(14, 22, 70);
+    color: ivory;
+    border: transparent;
+    cursor: pointer;
+}
+button:hover {
+    border: 1px rgba(245, 246, 248, 0.151) solid; 
+}
+.active {
+    background-color:rgba(245, 246, 248, 0.151) ;
+}
